@@ -189,21 +189,10 @@ Geliştirme modunda eksik veya kopuk bağlantılar için konsola otomatik uyarı
 
 ---
 
-## Gelecek Güncellemeler
-
-- Kullanıcı giriş sistemi
-- Favori anime sistemi
-- Yapay zekâ destekli öneri motoru
-- İzleme geçmişi sistemi
-- Dark / Light mode desteği
-- Çoklu dil desteği
-- Kullanıcıya özel öneri hafızası
-
----
 
 ## Bu Projeyi Neden Geliştirdim?
 
-Bu proje, üniversite ders projesi kapsamında frontend geliştirme ve öneri sistemi mantığını deneyimlemek amacıyla geliştirilmiştir.
+Bu proje, üniversite ders projesi kapsamında Uzman sistemi geliştirme ve öneri sistemi mantığını deneyimlemek amacıyla geliştirilmiştir.
 
 Amaç; klasik listeleme mantığından farklı olarak kullanıcıya daha sinematik, etkileşimli ve immersif bir anime keşif deneyimi sunmaktır.
 
