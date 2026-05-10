@@ -1,0 +1,1100 @@
+{
+  "startNode": "root",
+  "nodes": {
+    "root": {
+      "id": "root",
+      "type": "question",
+      "question": "Anime hangi dünyada geçsin?",
+      "options": [
+        {
+          "label": "Günlük yaşam ve gerçek dünya",
+          "next": "q_romantik"
+        },
+        {
+          "label": "Büyü ve fantastik dünya",
+          "next": "q_dogaustu"
+        },
+        {
+          "label": "Gelecek ve bilim kurgu",
+          "next": "q_bilim_kurgu"
+        },
+        {
+          "label": "Aksiyon ve derin kurgu",
+          "next": "q_hikaye_karmasik"
+        }
+      ]
+    },
+    "q_romantik": {
+      "id": "q_romantik",
+      "type": "question",
+      "question": "Romantizm olsun mu?",
+      "options": [
+        {
+          "label": "Evet, romantizm arıyorum",
+          "next": "q_duygusal_yogunluk"
+        },
+        {
+          "label": "Hayır, şart değil",
+          "next": "q_komedi"
+        }
+      ]
+    },
+    "q_duygusal_yogunluk": {
+      "id": "q_duygusal_yogunluk",
+      "type": "question",
+      "question": "Duygusal ve dramatik mi olsun?",
+      "options": [
+        {
+          "label": "Evet, ağlatacak kadar yoğun",
+          "next": "r_your_lie_in_april"
+        },
+        {
+          "label": "Hayır, tatlı ve iç ısıtan",
+          "next": "r_horimiya"
+        }
+      ]
+    },
+    "r_your_lie_in_april": {
+      "id": "r_your_lie_in_april",
+      "type": "result",
+      "anime": {
+        "title": "The Apothecary Diaries",
+        "genres": [
+          "Gizem",
+          "Dram",
+          "Tarihi"
+        ],
+        "reason": "Zeki karakter, güçlü atmosfer ve bölüm bölüm çözülen entrikalar istiyorsan Maomao’nun hikayesi tam sana göre.",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx161645-QLbzHXiYRgV2.jpg",
+        "link": "https://anilist.co/anime/161645",
+        "trailerUrl": "https://www.youtube.com/watch?v=oyHqh8ue4zw",
+        "alternativeSuggestions": [
+          {
+            "title": "Frieren: Beyond Journey’s End",
+            "reason": "Duygusal, zarif ve modern fantastik anlatım.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154587-qQTzQnEJJ3oB.jpg",
+            "link": "https://anilist.co/anime/154587",
+            "trailerUrl": "https://www.youtube.com/watch?v=qgQunxD0qCk"
+          },
+          {
+            "title": "Oshi no Ko",
+            "reason": "Parlak görünen sektörün karanlık tarafını anlatıyor.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx150672-WqmmwZ4nMzAy.png",
+            "link": "https://anilist.co/anime/150672",
+            "trailerUrl": "https://www.youtube.com/watch?v=gKWEUJ4r5do"
+          },
+          {
+            "title": "Violet Evergarden",
+            "reason": "Daha duygusal ve sinematik bir alternatif.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21827-ubzq619ZA2E9.png",
+            "link": "https://anilist.co/anime/21827",
+            "trailerUrl": "https://www.youtube.com/watch?v=_grmduuECm4"
+          }
+        ]
+      }
+    },
+    "r_horimiya": {
+      "id": "r_horimiya",
+      "type": "result",
+      "anime": {
+        "title": "The Dangers in My Heart",
+        "genres": [
+          "Romantik Komedi",
+          "Okul",
+          "Slice of Life"
+        ],
+        "reason": "Tatlı, doğal ilerleyen ve modern hisseden bir romantik anime arıyorsan bu eşleşme çok iyi.",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153152-Xnwmx7wuoIWV.jpg",
+        "link": "https://anilist.co/anime/153152",
+        "trailerUrl": "https://www.youtube.com/watch?v=c-yZsNd__0E",
+        "alternativeSuggestions": [
+          {
+            "title": "My Dress-Up Darling",
+            "reason": "Renkli, eğlenceli ve modern romantik komedi.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx132405-qP7FQYGmNI3d.jpg",
+            "link": "https://anilist.co/anime/132405",
+            "trailerUrl": "https://www.youtube.com/watch?v=8oveGY6h6T8"
+          },
+          {
+            "title": "Skip and Loafer",
+            "reason": "Sıcak, sade ve karakter odaklı okul hikayesi.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx141911-o6Jwav7hRPPM.jpg",
+            "link": "https://anilist.co/anime/141911",
+            "trailerUrl": "https://www.youtube.com/watch?v=GcfUnbrsCJk"
+          },
+          {
+            "title": "A Sign of Affection",
+            "reason": "Yumuşak tonlu, güncel ve iç ısıtan romantizm.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx166794-1MAXFMgND6qS.jpg",
+            "link": "https://anilist.co/anime/166794",
+            "trailerUrl": "https://www.youtube.com/watch?v=hJd9FxYWzL0"
+          }
+        ]
+      }
+    },
+    "q_komedi": {
+      "id": "q_komedi",
+      "type": "question",
+      "question": "Komedi ön planda olsun mu?",
+      "options": [
+        {
+          "label": "Evet, komedi odaklı",
+          "next": "q_uzunluk_kisa"
+        },
+        {
+          "label": "Hayır, ciddi veya aksiyonlu",
+          "next": "q_siddet"
+        }
+      ]
+    },
+    "q_uzunluk_kisa": {
+      "id": "q_uzunluk_kisa",
+      "type": "question",
+      "question": "Uzunluğu nasıl olsun?",
+      "options": [
+        {
+          "label": "Kısa ve öz",
+          "next": "r_nichijou"
+        },
+        {
+          "label": "Uzun soluklu",
+          "next": "r_gintama"
+        }
+      ]
+    },
+    "r_nichijou": {
+      "id": "r_nichijou",
+      "type": "result",
+      "anime": {
+        "title": "Spy x Family",
+        "genres": [
+          "Komedi",
+          "Aksiyon",
+          "Slice of Life"
+        ],
+        "reason": "Hem çok komik hem de aksiyon dolu, sıcacık bir aile hikayesi arıyorsan bu modern başyapıt tam sana göre!",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140960-Kb6R5nYQfjmP.jpg",
+        "link": "https://anilist.co/anime/140960",
+        "trailerUrl": "https://www.youtube.com/watch?v=ofXigq9aIpo",
+        "alternativeSuggestions": [
+          {
+            "title": "Spy x Family",
+            "reason": "Hem komik hem aksiyon dolu aile hikayesi.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140960-Kb6R5nYQfjmP.jpg",
+            "link": "https://anilist.co/anime/140960",
+            "trailerUrl": "https://www.youtube.com/watch?v=ofXigq9aIpo"
+          },
+          {
+            "title": "Mob Psycho 100",
+            "reason": "Komedi ve aksiyon harmanı süper bir yapım.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21507-6YUSbh2m0N1p.jpg",
+            "link": "https://anilist.co/anime/21507",
+            "trailerUrl": "https://www.youtube.com/watch?v=mV39saBlBLI"
+          },
+          {
+            "title": "Saiki Kusuo",
+            "reason": "Süper güçlü ama sessiz kalmak isteyen bir lise öğrencisi.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/19469.jpg",
+            "link": "https://anilist.co/anime/19469"
+          }
+        ]
+      }
+    },
+    "r_gintama": {
+      "id": "r_gintama",
+      "type": "result",
+      "anime": {
+        "title": "Mashle: Magic and Muscles",
+        "genres": [
+          "Komedi",
+          "Aksiyon",
+          "Fantastik"
+        ],
+        "reason": "Absürt mizah, hızlı tempo ve modern shonen enerjisi istiyorsan Mashle sana göre.",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151801-XxVf22Le6C8o.png",
+        "link": "https://anilist.co/anime/151801",
+        "trailerUrl": "https://www.youtube.com/watch?v=zl0Kiv0kuQQ",
+        "alternativeSuggestions": [
+          {
+            "title": "Sakamoto Days",
+            "reason": "Eski suikastçı, market hayatı ve bol aksiyonlu komedi.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177709-e5Qx6RlsBgD5.png",
+            "link": "https://anilist.co/anime/177709",
+            "trailerUrl": "https://www.youtube.com/watch?v=CdnMoPIgC5s"
+          },
+          {
+            "title": "Spy x Family",
+            "reason": "Aile komedisi ve aksiyon dengesi çok güçlü.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140960-Kb6R5nYQfjmP.jpg",
+            "link": "https://anilist.co/anime/140960",
+            "trailerUrl": "https://www.youtube.com/watch?v=ofXigq9aIpo"
+          },
+          {
+            "title": "Dandadan",
+            "reason": "Çılgın mizah ve doğaüstü aksiyon karışımı.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171018-60q1B6GK2Ghb.jpg",
+            "link": "https://anilist.co/anime/171018",
+            "trailerUrl": "https://www.youtube.com/watch?v=vnRmIBoyfBM"
+          }
+        ]
+      }
+    },
+    "q_siddet": {
+      "id": "q_siddet",
+      "type": "question",
+      "question": "Şiddet veya psikolojik gerilim olsun mu?",
+      "options": [
+        {
+          "label": "Evet, yeraltı ve suç",
+          "next": "r_black_lagoon"
+        },
+        {
+          "label": "Hayır, rekabet ve spor",
+          "next": "r_slam_dunk"
+        }
+      ]
+    },
+    "r_black_lagoon": {
+      "id": "r_black_lagoon",
+      "type": "result",
+      "anime": {
+        "title": "Chainsaw Man",
+        "genres": [
+          "Karanlık Shonen",
+          "Aksiyon",
+          "Doğaüstü"
+        ],
+        "reason": "Vahşi, öngörülemez ve adrenalin dolu modern bir başyapıt arıyorsan Chainsaw Man tam sana göre!",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127230-DdP4vAdssLoz.png",
+        "link": "https://anilist.co/anime/127230",
+        "trailerUrl": "https://www.youtube.com/watch?v=v4yLeNt-kCU",
+        "alternativeSuggestions": [
+          {
+            "title": "Jujutsu Kaisen",
+            "reason": "Modern ve karanlık bir büyü dünyası.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113415-LHBAeoZDIsnF.jpg",
+            "link": "https://anilist.co/anime/113415",
+            "trailerUrl": "https://www.youtube.com/watch?v=pkKu9hLT-t8"
+          },
+          {
+            "title": "Hell's Paradise",
+            "reason": "Gizemli bir adada hayatta kalma mücadelesi.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128893-Gc2t8b8M0mVu.jpg",
+            "link": "https://anilist.co/anime/128893",
+            "trailerUrl": "https://www.youtube.com/watch?v=8BIaDDN-r3o"
+          },
+          {
+            "title": "Dandadan",
+            "reason": "Absürt, hızlı ve görsel bir şölen.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171018-60q1B6GK2Ghb.jpg",
+            "link": "https://anilist.co/anime/171018",
+            "trailerUrl": "https://www.youtube.com/watch?v=vnRmIBoyfBM"
+          }
+        ]
+      }
+    },
+    "r_slam_dunk": {
+      "id": "r_slam_dunk",
+      "type": "result",
+      "anime": {
+        "title": "Blue Lock",
+        "genres": [
+          "Spor",
+          "Rekabet",
+          "Psikolojik"
+        ],
+        "reason": "Modern spor animesi, yüksek rekabet ve ego savaşları istiyorsan Blue Lock tam isabet.",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137822-U8naszP96vzC.png",
+        "link": "https://anilist.co/anime/137822",
+        "trailerUrl": "https://www.youtube.com/watch?v=IVsII3dLbWc",
+        "alternativeSuggestions": [
+          {
+            "title": "Wind Breaker",
+            "reason": "Sokak dövüşü, okul rekabeti ve modern aksiyon.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163270-wboZJp0ybwVK.jpg",
+            "link": "https://anilist.co/anime/163270",
+            "trailerUrl": "https://www.youtube.com/watch?v=62r_G9bEPlU"
+          },
+          {
+            "title": "Oblivion Battery",
+            "reason": "Yeni nesil spor komedisi ve takım ruhu.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx167927-eHWavr99BeTj.png",
+            "link": "https://anilist.co/anime/167927",
+            "trailerUrl": "https://www.youtube.com/watch?v=ltJa3i_4GyQ"
+          },
+          {
+            "title": "Ao Ashi",
+            "reason": "Futbolu daha taktiksel ve gerçekçi anlatıyor.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx134732-OXKSrOhF9pCM.jpg",
+            "link": "https://anilist.co/anime/134732",
+            "trailerUrl": "https://www.youtube.com/watch?v=Eo3bKRWsfZQ"
+          }
+        ]
+      }
+    },
+    "q_dogaustu": {
+      "id": "q_dogaustu",
+      "type": "question",
+      "question": "Doğaüstü güçler (büyü/güç) ön planda mı?",
+      "options": [
+        {
+          "label": "Evet, özel güçler olsun",
+          "next": "q_ana_karakter_guclu"
+        },
+        {
+          "label": "Hayır, klasik fantezi dünyası olsun",
+          "next": "q_ton_karanlik_ciddi"
+        }
+      ]
+    },
+    "q_ana_karakter_guclu": {
+      "id": "q_ana_karakter_guclu",
+      "type": "question",
+      "question": "Ana karakterin gelişimi nasıl olsun?",
+      "options": [
+        {
+          "label": "Zamanla gelişsin ve güçlensin",
+          "next": "q_tempo_hizli"
+        },
+        {
+          "label": "Baştan aşırı güçlü (Overpowered)",
+          "next": "r_overlord"
+        }
+      ]
+    },
+    "q_tempo_hizli": {
+      "id": "q_tempo_hizli",
+      "type": "question",
+      "question": "Temposu nasıl olsun?",
+      "options": [
+        {
+          "label": "Çok hızlı ve aksiyonlu",
+          "next": "r_demon_slayer"
+        },
+        {
+          "label": "Yavaş tempolu epik macera",
+          "next": "r_hunter_x_hunter"
+        }
+      ]
+    },
+    "r_demon_slayer": {
+      "id": "r_demon_slayer",
+      "type": "result",
+      "anime": {
+        "title": "Demon Slayer",
+        "genres": [
+          "Modern Shonen",
+          "Aksiyon",
+          "Doğaüstü"
+        ],
+        "reason": "Görsel olarak nefes kesen, hızlı tempolu bir aksiyon macerası tam sana göre!",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101922-WBsBl0ClmgYL.jpg",
+        "link": "https://anilist.co/anime/101922",
+        "trailerUrl": "https://www.youtube.com/watch?v=6vMuWuWlW4I",
+        "alternativeSuggestions": [
+          {
+            "title": "Jujutsu Kaisen",
+            "reason": "Modern ve heyecan verici doğaüstü savaşlar.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113415-LHBAeoZDIsnF.jpg",
+            "link": "https://anilist.co/anime/113415",
+            "trailerUrl": "https://www.youtube.com/watch?v=pkKu9hLT-t8"
+          },
+          {
+            "title": "Chainsaw Man",
+            "reason": "Karanlık, çılgın ve yenilikçi bir shonen.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127230-DdP4vAdssLoz.png",
+            "link": "https://anilist.co/anime/127230",
+            "trailerUrl": "https://www.youtube.com/watch?v=v4yLeNt-kCU"
+          },
+          {
+            "title": "My Hero Academia",
+            "reason": "Süper kahramanlar dünyasında büyüyen bir genç.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21459-nYh85uj2Fuwr.jpg",
+            "link": "https://anilist.co/anime/21459",
+            "trailerUrl": "https://www.youtube.com/watch?v=AhqVltWDqFA"
+          }
+        ]
+      }
+    },
+    "r_hunter_x_hunter": {
+      "id": "r_hunter_x_hunter",
+      "type": "result",
+      "anime": {
+        "title": "Delicious in Dungeon",
+        "genres": [
+          "Fantastik",
+          "Macera",
+          "Komedi"
+        ],
+        "reason": "Macera, yaratıcı dünya kurma ve modern fantastik tat arıyorsan bu seri çok keyifli.",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153518-IVXPDY5ph3kO.jpg",
+        "link": "https://anilist.co/anime/153518",
+        "trailerUrl": "https://www.youtube.com/watch?v=RtpYObV4c1Y",
+        "alternativeSuggestions": [
+          {
+            "title": "Frieren: Beyond Journey’s End",
+            "reason": "Modern fantastik anlatımın en güçlü örneklerinden.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154587-qQTzQnEJJ3oB.jpg",
+            "link": "https://anilist.co/anime/154587",
+            "trailerUrl": "https://www.youtube.com/watch?v=qgQunxD0qCk"
+          },
+          {
+            "title": "Mushoku Tensei II",
+            "reason": "Büyük dünya, karakter gelişimi ve isekai atmosferi.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146065-IjirxRK26O03.png",
+            "link": "https://anilist.co/anime/146065",
+            "trailerUrl": "https://www.youtube.com/watch?v=ts5NGoDI1V0"
+          },
+          {
+            "title": "Shangri-La Frontier",
+            "reason": "Oyun dünyasında tempolu ve eğlenceli macera.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151970-xtIx3VqEk02X.jpg",
+            "link": "https://anilist.co/anime/151970",
+            "trailerUrl": "https://www.youtube.com/watch?v=ZMpfkJiQrGg"
+          }
+        ]
+      }
+    },
+    "r_overlord": {
+      "id": "r_overlord",
+      "type": "result",
+      "anime": {
+        "title": "Overlord",
+        "genres": [
+          "Power Fantasy",
+          "Isekai",
+          "Karanlık Fantezi"
+        ],
+        "reason": "En güçlü karakter olarak dünyayı yönetmek isteyenler için mükemmel bir seçim!",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20832-vUNm5zrYWifc.jpg",
+        "link": "https://anilist.co/anime/20832",
+        "trailerUrl": "https://www.youtube.com/watch?v=RuNAPPcjDr4",
+        "alternativeSuggestions": [
+          {
+            "title": "The Eminence in Shadow",
+            "reason": "Gölgelerin efendisi olmak isteyen bir dahi.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130298-YMdcKHytpWNH.jpg",
+            "link": "https://anilist.co/anime/130298",
+            "trailerUrl": "https://www.youtube.com/watch?v=L7LgAbGF-WY"
+          },
+          {
+            "title": "That Time I Got Reincarnated as a Slime",
+            "reason": "Slime'dan efsaneye yükselen bir hikaye.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101280-tDxCVJm714nt.jpg",
+            "link": "https://anilist.co/anime/101280",
+            "trailerUrl": "https://www.youtube.com/watch?v=uOzwqb74K34"
+          },
+          {
+            "title": "Solo Leveling",
+            "reason": "Zayıftan en güçlüye, süper bir güç fantezisi.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151807-it355ZgzquUd.png",
+            "link": "https://anilist.co/anime/151807",
+            "trailerUrl": "https://www.youtube.com/watch?v=HkIKAnwLZCw"
+          }
+        ]
+      }
+    },
+    "q_ton_karanlik_ciddi": {
+      "id": "q_ton_karanlik_ciddi",
+      "type": "question",
+      "question": "Tonu karanlık ve ciddi mi olsun?",
+      "options": [
+        {
+          "label": "Evet, karanlık ve vahşi",
+          "next": "r_berserk"
+        },
+        {
+          "label": "Hayır, duygusal ve klasik fantezi",
+          "next": "r_frieren"
+        }
+      ]
+    },
+    "r_berserk": {
+      "id": "r_berserk",
+      "type": "result",
+      "anime": {
+        "title": "Hell’s Paradise",
+        "genres": [
+          "Karanlık Fantastik",
+          "Aksiyon",
+          "Hayatta Kalma"
+        ],
+        "reason": "Vahşi, görsel olarak güçlü ve modern karanlık fantastik istiyorsan Hell’s Paradise iyi eşleşme.",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128893-Gc2t8b8M0mVu.jpg",
+        "link": "https://anilist.co/anime/128893",
+        "trailerUrl": "https://www.youtube.com/watch?v=8BIaDDN-r3o",
+        "alternativeSuggestions": [
+          {
+            "title": "Chainsaw Man",
+            "reason": "Karanlık, hızlı ve modern aksiyon.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127230-DdP4vAdssLoz.png",
+            "link": "https://anilist.co/anime/127230",
+            "trailerUrl": "https://www.youtube.com/watch?v=v4yLeNt-kCU"
+          },
+          {
+            "title": "Dorohedoro",
+            "reason": "Kirli, kaotik ve farklı bir karanlık dünya.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx105228-I4xr84QS9Pvk.jpg",
+            "link": "https://anilist.co/anime/105228",
+            "trailerUrl": "https://www.youtube.com/watch?v=IS6l1K19N1U"
+          },
+          {
+            "title": "Vinland Saga",
+            "reason": "Daha ciddi, dramatik ve epik bir seçenek.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101348-2fhDFPCuMNiz.jpg",
+            "link": "https://anilist.co/anime/101348",
+            "trailerUrl": "https://www.youtube.com/watch?v=5xqEp7R9SYM"
+          }
+        ]
+      }
+    },
+    "r_frieren": {
+      "id": "r_frieren",
+      "type": "result",
+      "anime": {
+        "title": "Frieren",
+        "genres": [
+          "Klasik Fantezi",
+          "Macera",
+          "Dram"
+        ],
+        "reason": "Huzurlu ama derinden etkileyen, zamanla anlam kazanan büyüleyici bir yolculuk!",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154587-qQTzQnEJJ3oB.jpg",
+        "link": "https://anilist.co/anime/154587",
+        "trailerUrl": "https://www.youtube.com/watch?v=qgQunxD0qCk",
+        "alternativeSuggestions": [
+          {
+            "title": "Mushishi",
+            "reason": "Huzurlu ve gizemli bir doğa hikayesi.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx457-l6cTtNgI9Bi6.png",
+            "link": "https://anilist.co/anime/457",
+            "trailerUrl": "https://www.youtube.com/watch?v=h371H0KIuPo"
+          },
+          {
+            "title": "The Ancient Magus' Bride",
+            "reason": "Büyü ve duygusal bağların harmanı.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98436-n7sK6POCd0XV.png",
+            "link": "https://anilist.co/anime/98436",
+            "trailerUrl": "https://www.youtube.com/watch?v=W9KZgJgo-x0"
+          },
+          {
+            "title": "Spice and Wolf",
+            "reason": "Ticaret ve romantizmin benzersiz birleşimi.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2966-AEULMyYA9WKb.png",
+            "link": "https://anilist.co/anime/2966",
+            "trailerUrl": "https://www.youtube.com/watch?v=6O90RABLVQo"
+          }
+        ]
+      }
+    },
+    "q_bilim_kurgu": {
+      "id": "q_bilim_kurgu",
+      "type": "question",
+      "question": "Tam bir bilim kurgu evreni mi?",
+      "options": [
+        {
+          "label": "Evet, tamamen bilim kurgu",
+          "next": "q_zaman_yolculugu"
+        },
+        {
+          "label": "Hayır, gizem ve suç da olsun",
+          "next": "q_surpriz_var"
+        }
+      ]
+    },
+    "q_zaman_yolculugu": {
+      "id": "q_zaman_yolculugu",
+      "type": "question",
+      "question": "Zaman yolculuğu var mı?",
+      "options": [
+        {
+          "label": "Evet, zaman teorileri severim",
+          "next": "r_steins_gate"
+        },
+        {
+          "label": "Hayır, distopya veya uzay ilgimi çeker",
+          "next": "q_surpriz_onemli"
+        }
+      ]
+    },
+    "r_steins_gate": {
+      "id": "r_steins_gate",
+      "type": "result",
+      "anime": {
+        "title": "Summertime Render",
+        "genres": [
+          "Gizem",
+          "Zaman Döngüsü",
+          "Gerilim"
+        ],
+        "reason": "Zaman döngüsü, gizem ve yüksek tempo istiyorsan modern ve sürükleyici bir seçim.",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129201-HJBauga2be8I.png",
+        "link": "https://anilist.co/anime/129201",
+        "trailerUrl": "https://www.youtube.com/watch?v=_JgOMtS2FkE",
+        "alternativeSuggestions": [
+          {
+            "title": "Link Click",
+            "reason": "Zaman temalı, duygusal ve gerilimli bir yapı.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126403-BfVSRzWUtVFW.png",
+            "link": "https://anilist.co/anime/126403",
+            "trailerUrl": "https://www.youtube.com/watch?v=Fd6i9zOFFoA"
+          },
+          {
+            "title": "Re:Zero Season 3",
+            "reason": "Zaman döngüsü ve yoğun dramatik gerilim.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163134-yieRFbvUOH9a.jpg",
+            "link": "https://anilist.co/anime/163134",
+            "trailerUrl": "https://www.youtube.com/watch?v=qMJNdQFPaHk"
+          },
+          {
+            "title": "Vivy: Fluorite Eye’s Song",
+            "reason": "Bilim kurgu, zaman planı ve güçlü aksiyon.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128546-UIwyhuhjxmL0.jpg",
+            "link": "https://anilist.co/anime/128546",
+            "trailerUrl": "https://www.youtube.com/watch?v=Y653dJQ_ecs"
+          }
+        ]
+      }
+    },
+    "q_surpriz_onemli": {
+      "id": "q_surpriz_onemli",
+      "type": "question",
+      "question": "Sürprizler (Plot twist) önemli mi?",
+      "options": [
+        {
+          "label": "Evet, bolca ters köşe olsun",
+          "next": "r_psycho_pass"
+        },
+        {
+          "label": "Hayır, karakter ve evren odaklı olsun",
+          "next": "r_cowboy_bebop"
+        }
+      ]
+    },
+    "r_psycho_pass": {
+      "id": "r_psycho_pass",
+      "type": "result",
+      "anime": {
+        "title": "Cyberpunk: Edgerunners",
+        "genres": [
+          "Siberpunk",
+          "Aksiyon",
+          "Dram"
+        ],
+        "reason": "Kısa, yoğun, modern ve görsel olarak çok güçlü bir bilim kurgu deneyimi arıyorsan bu tam sana göre.",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120377-ayZPoxiWt4Li.jpg",
+        "link": "https://anilist.co/anime/120377",
+        "trailerUrl": "https://www.youtube.com/watch?v=ax5YUmkWf_Y",
+        "alternativeSuggestions": [
+          {
+            "title": "Pluto",
+            "reason": "Daha ağır, felsefi ve polisiye bilim kurgu.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99088-LTJskMD1wbbQ.png",
+            "link": "https://anilist.co/anime/99088",
+            "trailerUrl": "https://www.youtube.com/watch?v=9ez8lm9I26Y"
+          },
+          {
+            "title": "Vivy: Fluorite Eye’s Song",
+            "reason": "Yapay zeka ve insanlık üzerine etkileyici bir seri.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128546-UIwyhuhjxmL0.jpg",
+            "link": "https://anilist.co/anime/128546",
+            "trailerUrl": "https://www.youtube.com/watch?v=Y653dJQ_ecs"
+          },
+          {
+            "title": "Lazarus",
+            "reason": "Yeni dönem, stil sahibi aksiyon bilim kurgu.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx167336-KpGIIBie71OX.png",
+            "link": "https://anilist.co/anime/167336",
+            "trailerUrl": "https://www.youtube.com/watch?v=7d2ot3PQBMs"
+          }
+        ]
+      }
+    },
+    "r_cowboy_bebop": {
+      "id": "r_cowboy_bebop",
+      "type": "result",
+      "anime": {
+        "title": "Trigun Stampede",
+        "genres": [
+          "Bilim Kurgu",
+          "Aksiyon",
+          "Macera"
+        ],
+        "reason": "Klasik uzay-western hissini daha güncel görsel dille izlemek istiyorsan Trigun Stampede iyi gider.",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151040-9QXRpaprfNmL.png",
+        "link": "https://anilist.co/anime/151040",
+        "trailerUrl": "https://www.youtube.com/watch?v=lcFWdVqh3Xs",
+        "alternativeSuggestions": [
+          {
+            "title": "Cyberpunk: Edgerunners",
+            "reason": "Yoğun, neon ışıklı ve duygusal bilim kurgu.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120377-ayZPoxiWt4Li.jpg",
+            "link": "https://anilist.co/anime/120377",
+            "trailerUrl": "https://www.youtube.com/watch?v=ax5YUmkWf_Y"
+          },
+          {
+            "title": "Kaiju No. 8",
+            "reason": "Modern aksiyon ve bilim kurgu dokusu.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153288-25FBfFJzEQ5O.jpg",
+            "link": "https://anilist.co/anime/153288",
+            "trailerUrl": "https://www.youtube.com/watch?v=7n_mFVPeApw"
+          },
+          {
+            "title": "Metallic Rouge",
+            "reason": "Androidler, aksiyon ve renkli bilim kurgu atmosferi.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx162985-3J7PrG5oO67v.jpg",
+            "link": "https://anilist.co/anime/162985",
+            "trailerUrl": "https://www.youtube.com/watch?v=3GvzeHi8puU"
+          }
+        ]
+      }
+    },
+    "q_surpriz_var": {
+      "id": "q_surpriz_var",
+      "type": "question",
+      "question": "Zihin oyunları ve sürprizler var mı?",
+      "options": [
+        {
+          "label": "Evet, dehaların savaşı",
+          "next": "r_death_note"
+        },
+        {
+          "label": "Hayır, gerçekçi dedektiflik",
+          "next": "r_monster"
+        }
+      ]
+    },
+    "r_death_note": {
+      "id": "r_death_note",
+      "type": "result",
+      "anime": {
+        "title": "Oshi no Ko",
+        "genres": [
+          "Gizem",
+          "Psikolojik Dram",
+          "Gerilim"
+        ],
+        "reason": "Eğlence dünyasının karanlık yüzünü deha seviyesinde bir gizemle birleştiren modern bir kült!",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx150672-WqmmwZ4nMzAy.png",
+        "link": "https://anilist.co/anime/150672",
+        "trailerUrl": "https://www.youtube.com/watch?v=gKWEUJ4r5do",
+        "alternativeSuggestions": [
+          {
+            "title": "The Promised Neverland",
+            "reason": "Zeka ve hayatta kalma mücadelesi.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101759-8UR7r9MNVpz2.jpg",
+            "link": "https://anilist.co/anime/101759",
+            "trailerUrl": "https://www.youtube.com/watch?v=ApLudqucq-s"
+          },
+          {
+            "title": "Classroom of the Elite",
+            "reason": "Okul ortamında dahilerin savaşı.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98659-WNyPLIZDpGGY.jpg",
+            "link": "https://anilist.co/anime/98659",
+            "trailerUrl": "https://www.youtube.com/watch?v=iYsx6w5PNno"
+          },
+          {
+            "title": "Death Note",
+            "reason": "Zihin oyunları türünün en büyük klasiği.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1535-kUgkcrfOrkUM.jpg",
+            "link": "https://anilist.co/anime/1535",
+            "trailerUrl": "https://www.youtube.com/watch?v=NlJZ-YgAt-c"
+          }
+        ]
+      }
+    },
+    "r_monster": {
+      "id": "r_monster",
+      "type": "result",
+      "anime": {
+        "title": "Pluto",
+        "genres": [
+          "Sci-Fi Gizem",
+          "Psikolojik",
+          "Polisiye"
+        ],
+        "reason": "İnsanlık ve yapay zeka üzerine kurulu, kalbinize dokunacak kadar derin bir dedektiflik hikayesi.",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99088-LTJskMD1wbbQ.png",
+        "link": "https://anilist.co/anime/99088",
+        "trailerUrl": "https://www.youtube.com/watch?v=9ez8lm9I26Y",
+        "alternativeSuggestions": [
+          {
+            "title": "Monster",
+            "reason": "Aynı yazarın bir başka muazzam psikolojik eseri.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx19-gtMC64182sm4.jpg",
+            "link": "https://anilist.co/anime/19"
+          },
+          {
+            "title": "Heavenly Delusion",
+            "reason": "Gizem ve hayatta kalma dolu modern bir bilim kurgu.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155783-YosKbsmZzuDE.jpg",
+            "link": "https://anilist.co/anime/155783",
+            "trailerUrl": "https://www.youtube.com/watch?v=Sld5uW_BJU4"
+          },
+          {
+            "title": "Odd Taxi",
+            "reason": "Beklenmedik ters köşelerle dolu modern bir gizem.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx128547-nNekWTKqmvEi.jpg",
+            "link": "https://anilist.co/anime/128547",
+            "trailerUrl": "https://www.youtube.com/watch?v=esrwdJif-vc"
+          }
+        ]
+      }
+    },
+    "q_hikaye_karmasik": {
+      "id": "q_hikaye_karmasik",
+      "type": "question",
+      "question": "Hikaye karmaşık ve derin mi olsun?",
+      "options": [
+        {
+          "label": "Evet, katmanlı olsun",
+          "next": "q_ton_nasil"
+        },
+        {
+          "label": "Hayır, daha çerezlik ve net",
+          "next": "q_tamamlanmis_mi"
+        }
+      ]
+    },
+    "q_ton_nasil": {
+      "id": "q_ton_nasil",
+      "type": "question",
+      "question": "Genel tonu nasıl olsun?",
+      "options": [
+        {
+          "label": "Karanlık ve psikolojik",
+          "next": "q_duygusal_yogunluk_2"
+        },
+        {
+          "label": "Eğlenceli ve aksiyonlu",
+          "next": "r_jojo"
+        }
+      ]
+    },
+    "q_duygusal_yogunluk_2": {
+      "id": "q_duygusal_yogunluk_2",
+      "type": "question",
+      "question": "Duygusal yoğunluğu var mı?",
+      "options": [
+        {
+          "label": "Evet, derin psikolojik",
+          "next": "r_evangelion"
+        },
+        {
+          "label": "Hayır, politik ve askeri strateji",
+          "next": "r_code_geass"
+        }
+      ]
+    },
+    "r_evangelion": {
+      "id": "r_evangelion",
+      "type": "result",
+      "anime": {
+        "title": "86: Eighty-Six",
+        "genres": [
+          "Psikolojik Dram",
+          "Mecha",
+          "Askeri Bilim Kurgu"
+        ],
+        "reason": "Savaşın acımasızlığını ve insan onurunu işleyen, son yılların en etkileyici dramalarından biri.",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116589-KawXHB6sApFt.jpg",
+        "link": "https://anilist.co/anime/116589",
+        "trailerUrl": "https://www.youtube.com/watch?v=VSdS29SDvn4",
+        "alternativeSuggestions": [
+          {
+            "title": "Cyberpunk: Edgerunners",
+            "reason": "Görsel ve duygusal olarak sarsıcı bir deneyim.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120377-ayZPoxiWt4Li.jpg",
+            "link": "https://anilist.co/anime/120377",
+            "trailerUrl": "https://www.youtube.com/watch?v=ax5YUmkWf_Y"
+          },
+          {
+            "title": "Neon Genesis Evangelion",
+            "reason": "Psikolojik derinliğiyle türü değiştiren kült seri.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx30-AI1zr74Dh4ye.jpg",
+            "link": "https://anilist.co/anime/30",
+            "trailerUrl": "https://www.youtube.com/watch?v=kOH2_8MkgZY"
+          },
+          {
+            "title": "Gundam: Witch from Mercury",
+            "reason": "Mecha türüne modern ve taze bir bakış.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx139274-0NJTOKWHdDew.png",
+            "link": "https://anilist.co/anime/139274",
+            "trailerUrl": "https://www.youtube.com/watch?v=bBjzNiGSC3A"
+          }
+        ]
+      }
+    },
+    "r_code_geass": {
+      "id": "r_code_geass",
+      "type": "result",
+      "anime": {
+        "title": "Solo Leveling",
+        "genres": [
+          "Aksiyon",
+          "Güç Fantezisi",
+          "Zindan"
+        ],
+        "reason": "En zayıftan en güçlüye yükselen modern bir efsane, dur durak bilmeyen bir aksiyon!",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151807-it355ZgzquUd.png",
+        "link": "https://anilist.co/anime/151807",
+        "trailerUrl": "https://www.youtube.com/watch?v=HkIKAnwLZCw",
+        "alternativeSuggestions": [
+          {
+            "title": "Attack on Titan",
+            "reason": "Politik derinliği ve ters köşeleriyle devrim yarattı.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-buvcRTBx4NSm.jpg",
+            "link": "https://anilist.co/anime/16498",
+            "trailerUrl": "https://www.youtube.com/watch?v=LHtdKWJdif4\t"
+          },
+          {
+            "title": "The Eminence in Shadow",
+            "reason": "Hem havalı hem komik bir güç fantezisi.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130298-YMdcKHytpWNH.jpg",
+            "link": "https://anilist.co/anime/130298",
+            "trailerUrl": "https://www.youtube.com/watch?v=L7LgAbGF-WY"
+          },
+          {
+            "title": "Shangri-La Frontier",
+            "reason": "Oyun dünyasında geçen muhteşem aksiyon.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151970-xtIx3VqEk02X.jpg",
+            "link": "https://anilist.co/anime/151970",
+            "trailerUrl": "https://www.youtube.com/watch?v=ZMpfkJiQrGg"
+          }
+        ]
+      }
+    },
+    "r_jojo": {
+      "id": "r_jojo",
+      "type": "result",
+      "anime": {
+        "title": "Dandadan",
+        "genres": [
+          "Doğaüstü",
+          "Aksiyon",
+          "Komedi"
+        ],
+        "reason": "Garip, hızlı, komik ve görsel olarak aşırı enerjik bir anime arıyorsan Dandadan en iyi seçenek.",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171018-60q1B6GK2Ghb.jpg",
+        "link": "https://anilist.co/anime/171018",
+        "trailerUrl": "https://www.youtube.com/watch?v=vnRmIBoyfBM",
+        "alternativeSuggestions": [
+          {
+            "title": "Chainsaw Man",
+            "reason": "Karanlık mizah ve patlayıcı aksiyon.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127230-DdP4vAdssLoz.png",
+            "link": "https://anilist.co/anime/127230",
+            "trailerUrl": "https://www.youtube.com/watch?v=v4yLeNt-kCU"
+          },
+          {
+            "title": "Mob Psycho 100",
+            "reason": "Komedi ve doğaüstü aksiyonu iyi harmanlıyor.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21507-6YUSbh2m0N1p.jpg",
+            "link": "https://anilist.co/anime/21507",
+            "trailerUrl": "https://www.youtube.com/watch?v=mV39saBlBLI"
+          },
+          {
+            "title": "Gachiakuta",
+            "reason": "Yeni dönem, kirli estetikli ve sert aksiyon.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx178025-cWJKEsZynkil.jpg",
+            "link": "https://anilist.co/anime/178025",
+            "trailerUrl": "https://www.youtube.com/watch?v=yeRvDchyo44"
+          }
+        ]
+      }
+    },
+    "q_tamamlanmis_mi": {
+      "id": "q_tamamlanmis_mi",
+      "type": "question",
+      "question": "Tamamlanmış bir seri mi olsun?",
+      "options": [
+        {
+          "label": "Evet, final yapmış",
+          "next": "r_kill_la_kill"
+        },
+        {
+          "label": "Hayır, güncel ve popüler",
+          "next": "r_jujutsu_kaisen"
+        }
+      ]
+    },
+    "r_kill_la_kill": {
+      "id": "r_kill_la_kill",
+      "type": "result",
+      "anime": {
+        "title": "Cyberpunk: Edgerunners",
+        "genres": [
+          "Siberpunk",
+          "Aksiyon",
+          "Dram"
+        ],
+        "reason": "Görsel bir şölen, yüksek tempo ve kalbinizi parçalayacak bir final... Modern bir başyapıt!",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120377-ayZPoxiWt4Li.jpg",
+        "link": "https://anilist.co/anime/120377",
+        "trailerUrl": "https://www.youtube.com/watch?v=ax5YUmkWf_Y",
+        "alternativeSuggestions": [
+          {
+            "title": "Kill la Kill",
+            "reason": "Aynı stüdyodan çılgın ve hızlı bir aksiyon.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b18679-lbkq7iYESoFW.png",
+            "link": "https://anilist.co/anime/18679",
+            "trailerUrl": "https://www.youtube.com/watch?v=-ClQ7zkHtXY"
+          },
+          {
+            "title": "Promare",
+            "reason": "Görsel şölen dolu kısa bir film deneyimi.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99425-CQ500X23zp4i.png",
+            "link": "https://anilist.co/anime/99425",
+            "trailerUrl": "https://www.youtube.com/watch?v=Q1z8XFR3nNg"
+          },
+          {
+            "title": "Akudama Drive",
+            "reason": "Siberpunk ve suç dolu yüksek tempolu bir macera.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116566-PPIVQt359vQY.jpg",
+            "link": "https://anilist.co/anime/116566",
+            "trailerUrl": "https://www.youtube.com/watch?v=47QY-u0CXMo"
+          }
+        ]
+      }
+    },
+    "r_jujutsu_kaisen": {
+      "id": "r_jujutsu_kaisen",
+      "type": "result",
+      "anime": {
+        "title": "Jujutsu Kaisen",
+        "genres": [
+          "Popüler Güncel Seri",
+          "Shonen",
+          "Aksiyon"
+        ],
+        "reason": "Günümüzün en popüler ve aksiyonlu animesi, herkesin konuştuğu bir fenomen!",
+        "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113415-LHBAeoZDIsnF.jpg",
+        "link": "https://anilist.co/anime/113415",
+        "trailerUrl": "https://www.youtube.com/watch?v=pkKu9hLT-t8",
+        "alternativeSuggestions": [
+          {
+            "title": "Demon Slayer",
+            "reason": "Görsel olarak muhteşem modern bir shonen.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101922-WBsBl0ClmgYL.jpg",
+            "link": "https://anilist.co/anime/101922",
+            "trailerUrl": "https://www.youtube.com/watch?v=6vMuWuWlW4I"
+          },
+          {
+            "title": "Chainsaw Man",
+            "reason": "Karanlık, farklı ve yenilikçi bir shonen.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127230-DdP4vAdssLoz.png",
+            "link": "https://anilist.co/anime/127230",
+            "trailerUrl": "https://www.youtube.com/watch?v=v4yLeNt-kCU"
+          },
+          {
+            "title": "Solo Leveling",
+            "reason": "Güçlenme ve aksiyon odaklı heyecan verici bir seri.",
+            "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx151807-it355ZgzquUd.png",
+            "link": "https://anilist.co/anime/151807",
+            "trailerUrl": "https://www.youtube.com/watch?v=HkIKAnwLZCw"
+          }
+        ]
+      }
+    }
+  }
+}
